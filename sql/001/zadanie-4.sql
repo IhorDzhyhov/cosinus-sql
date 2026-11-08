@@ -1,0 +1,4 @@
+CREATE TABLE data(dataiczas DATETIME);
+INSERT INTO data (dataiczas) VALUES ('2026-10-31 10-00-00'), ('2026-10-31 12-30-00'), ('2026-11-01 08-15-00'),
+('2026-11-02 18-45-00');
+SELECT * FROM data;
